@@ -1,0 +1,38 @@
+﻿Git Configuration
+
+  Command Listing
+
+    git version
+    git config --global user.name "Abe Lincoln"
+    git config --global user.email "mrabe@git .training"
+    git config --global --list
+
+Copy the Repository (clone)
+
+  Command Listing
+
+    # paste in your GitHub HTTPS clone URL
+    git clone https://github.com/prezlincoln/github-demo .git
+    ls
+    cd github-demo
+    ls
+    git status
+
+The First Commit
+
+  Command Listing
+
+    echo "Test Git Quick Start demo" >> start .txt
+    ls
+    cat start .txt
+    git status
+    git add start .txt
+    git status
+    git commit -m "Adding start text file"
+    git status
+
+Publishing Changes to GitHub (push)
+
+  Command Listing
+
+    git push origin master 
